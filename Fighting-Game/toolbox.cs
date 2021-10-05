@@ -14,8 +14,9 @@ public static void WriteCentered(string text){
     }
     Console.WriteLine(text);
 }
+// Gör så att det jag skriver i consolen blir centrerat
 
-     public static string player1()
+     public static string getplayer1name()
      {
          WriteCentered("Write The name of player 1:");
 
@@ -28,8 +29,9 @@ public static void WriteCentered(string text){
 
         return playername1;
         }
+        // Gör en string för playername2 och frågar spelaren att skriva namn för den och vägrar fortsätta utan namnet.
 
-    public static string player2()
+    public static string getplayer2name()
     {
         WriteCentered("Write The name of player 2:");
 
@@ -44,9 +46,10 @@ public static void WriteCentered(string text){
         return playername2;
 
     }
+    // Gör en string för playername 2 och frågar spelaren att skriva namn för den och vägrar fortsätta utan namnet
 
     public static void displayfight(){
-
+Console.ForegroundColor = ConsoleColor.Red;
 tb.WriteCentered(" #######                       ");
 tb.WriteCentered(" #       #  ####  #    # ##### ");
 tb.WriteCentered(" #       # #    # #    #   #   ");
@@ -54,9 +57,15 @@ tb.WriteCentered(" #####   # #      ######   #   ");
 tb.WriteCentered(" #       # #  ### #    #   #   ");
 tb.WriteCentered(" #       # #    # #    #   #   ");
 tb.WriteCentered(" #       #  ####  #    #   #   ");
+Console.ForegroundColor = ConsoleColor.White;
 }
+// Gör så att jag slipper göra ascci art varje gång jag behöver den
+
+
+
+
 
     
 
 
- }
+}
