@@ -61,6 +61,21 @@ Console.ForegroundColor = ConsoleColor.White;
 }
 // Gör så att jag slipper göra ascci art varje gång jag behöver den
 
+public static void displayend(){
+    Console.ForegroundColor = ConsoleColor.Red;
+    tb.WriteCentered("  ::::::::::: :::    ::: ::::::::::          :::::::::: ::::    ::: ::::::::: ");
+    tb.WriteCentered("     :+:     :+:    :+: :+:                 :+:        :+:+:   :+: :+:    :+: ");
+    tb.WriteCentered("    +:+     +:+    +:+ +:+                 +:+        :+:+:+  +:+ +:+    +:+  ");
+    tb.WriteCentered("   +#+     +#++:++#++ +#++:++#            +#++:++#   +#+ +:+ +#+ +#+    +:+   ");
+    tb.WriteCentered("  +#+     +#+    +#+ +#+                 +#+        +#+  +#+#+# +#+    +#+    ");
+    tb.WriteCentered(" #+#     #+#    #+# #+#                 #+#        #+#   #+#+# #+#    #+#     ");
+    tb.WriteCentered("###     ###    ### ##########          ########## ###    #### #########       ");
+    
+    {
+         
+    }
+}
+
 
 
 
