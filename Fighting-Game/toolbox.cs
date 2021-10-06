@@ -43,7 +43,7 @@ public static void WriteCentered(string text){
             
         }
 
-        return playername2;
+    return playername2;
 
     }
     // Gör en string för playername 2 och frågar spelaren att skriva namn för den och vägrar fortsätta utan namnet

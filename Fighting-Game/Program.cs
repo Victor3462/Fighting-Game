@@ -8,10 +8,12 @@ tb.WriteCentered("PRESS ENTER TO START");
 Console.ReadLine();
 Console.Clear();
 
+Console.WriteLine(" ");
 tb.displayfight();
 Console.WriteLine(" ");
 tb.getplayer1name();
 Console.Clear();
+Console.WriteLine(" ");
 tb.displayfight();
 Console.WriteLine(" ");
 tb.getplayer2name();
@@ -27,6 +29,8 @@ Console.WriteLine(" ");
 Random rnd = new Random();
 
 int damage1 = rnd.Next(20);
+
+
 
 
 
