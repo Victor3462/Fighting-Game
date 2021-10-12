@@ -95,6 +95,8 @@ while (restart1 == "yes")
 
     if (restart1 == "no")
     {
+        Console.Clear();
+        Console.WriteLine(" ");
         tb.displayend();
         Console.ReadLine();
         Environment.Exit(0);
